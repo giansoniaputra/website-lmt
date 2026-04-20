@@ -1,6 +1,6 @@
 @extends('fe.layouts.main')
 @section('container')
-    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/13.jpeg);">
+    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/readyy.png);">
         <div class="ve-page-hero-overlay"></div>
         <div class="container ve-page-hero-content">
             <span class="ve-section-tag">Our Story</span>

@@ -35,20 +35,20 @@
             <div class="ve-hero-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/1.jpeg);"></div>
             {{-- <div class="ve-hero-img-accent bg-img" style="background-image:url(/fe_assets/img/bg-img/3.jpg);"></div> --}}
             <!-- Floating card -->
-            <div class="ve-float-card">
+            <!-- <div class="ve-float-card">
                 <i class="fa fa-line-chart"></i>
                 <div>
                     <strong>+18.4%</strong>
                     <span>Annual Returns</span>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <div class="ve-trust-bar">
         <div class="ve-trust-inner">
-            <span><i class="fa fa-shield"></i> Bank-Grade Security</span>
-            <span><i class="fa fa-check-circle"></i> SEC Registered</span>
-            <span><i class="fa fa-users"></i> 50,000+ Clients Worldwide</span>
+            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
+            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
+            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
         </div>
     </div>
 
@@ -66,37 +66,37 @@
                     <div class="ve-service-icon"><i class="icon-profits"></i></div>
                     <h4>Beli Emas</h4>
                     <p>Dapatkan emas asli dengan harga transparan dan diperbarui setiap hari.</p>
-                    <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="200ms">
                     <div class="ve-service-icon"><i class="icon-money-1"></i></div>
                     <h4>Jual / Buyback Emas</h4>
                     <p>Jual emas Anda dengan harga kompetitif, proses cepat, dan terpercaya.</p>
-                    <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="300ms">
                     <div class="ve-service-icon"><i class="icon-coin"></i></div>
                     <h4>Tabungan Emas</h4>
                     <p>Mulai investasi emas dari nominal kecil, cocok untuk pemula.</p>
-                    <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-service-icon"><i class="icon-smartphone-1"></i></div>
                     <h4>Konsultasi Investasi</h4>
                     <p>Kami bantu Anda menentukan strategi investasi emas yang tepat sesuai kebutuhan.</p>
-                    <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="500ms">
                     <div class="ve-service-icon"><i class="icon-diamond"></i></div>
                     <h4>Edukasi Investasi Emas</h4>
                     <p>Pelajari cara berinvestasi emas dengan benar agar lebih aman dan menguntungkan.</p>
-                    <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="600ms">
                     <div class="ve-service-icon"><i class="icon-piggy-bank"></i></div>
                     <h4>Perencanaan Keuangan</h4>
                     <p>Rencanakan masa depan Anda dengan strategi berbasis emas yang stabil.</p>
-                    <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
                 </div>
             </div>
         </div>
@@ -111,10 +111,11 @@
                     <div class="ve-whyus-img-wrap wow fadeInLeft" data-wow-delay="100ms">
                         <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/5.jpeg);">
                         </div>
-                        {{-- <div class="ve-whyus-badge">
+                
+                        <!-- <div class="ve-whyus-badge">
                             <strong>12+</strong>
                             <span>Years of Financial Excellence</span>
-                        </div> --}}
+                        </div> -->
                     </div>
                 </div>
                 <!-- Content Side -->
@@ -153,7 +154,7 @@
     </section>
 
     <!-- ===== COUNTERS ===== -->
-    <section class="ve-counter-section">
+    <!-- <section class="ve-counter-section">
         <div class="container">
             <div class="ve-counter-grid">
                 <div class="ve-counter-item wow fadeInUp" data-wow-delay="100ms">
@@ -178,7 +179,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ===== TESTIMONIALS ===== -->
     <section class="ve-section ve-testimonials-section">
@@ -223,7 +224,7 @@
     </section>
 
     <!-- ===== CTA BANNER ===== -->
-    <section class="ve-cta-banner bg-img" style="background-image:url(/fe_assets/img/bg-img/6.jpg);">
+    <section class="ve-cta-banner bg-img" style="background-image:url(/fe_assets/img/bg-img/61.png);">
         <div class="ve-cta-overlay"></div>
         <div class="container ve-cta-content">
             <div class="row align-items-center">
@@ -233,7 +234,7 @@
                         terbaik untuk masa depan finansial yang lebih aman.</p>
                 </div>
                 <div class="col-12 col-lg-4 text-lg-right">
-                    <a href="#" class="ve-btn-white">Konsultasikan</a>
+                     <a href="https://wa.me/{{ $no_telepon }}" target="_blank" class="ve-btn-primary mt-30">Konsultasikan</a>
                 </div>
             </div>
         </div>

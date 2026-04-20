@@ -1,6 +1,6 @@
 @extends('fe.layouts.main')
 @section('container')
-    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/24.jpg);">
+    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/21.jpg);">
         <div class="ve-page-hero-overlay"></div>
         <div class="container ve-page-hero-content">
             <span class="ve-section-tag">Our Product</span>
@@ -17,26 +17,27 @@
     <section class="ve-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-8">
+                <div class="col-sm-12">
                     <div class="row">
-                        <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        @for($i=0;$i<10;$i++)
+                        <div class="col-sm-3 wow fadeInUp" data-wow-delay="100ms">
                             <div class="ve-insight-card">
                                 <div class="ve-insight-img bg-img"
-                                    style="background-image:url(/fe_assets/img/bg-img/10.jpg);"></div>
-                                <div class="ve-insight-body"><span class="ve-insight-cat">Investment</span>
-                                    <h5><a href="single-post.html">5 Smart Investment Strategies for 2025</a></h5>
-                                    <p>Discover the top strategies seasoned investors use to grow wealth in volatile
-                                        markets.</p>
-                                    <div class="ve-insight-meta"><span><i class="fa fa-calendar"></i> April 26</span><a
+                                    style="background-image:url(/fe_assets/img/bg-img/lmt.jpg);"></div>
+                                <div class="ve-insight-body"><span class="ve-insight-cat">Red Mark</span>
+                                    <h6><a href="single-post.html">Antam 50 Gram Emas Logam Mulia Press Certieye</a></h6>
+                                    <p></p>
+                                    <div class="ve-insight-meta"><span></span><a
                                             href="single-post.html">Read More <i class="fa fa-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
+                        @endfor
                     </div>
                     <div class="ve-pagination"><a href="#" class="active">1</a><a href="#">2</a><a
                             href="#">3</a><a href="#"><i class="fa fa-chevron-right"></i></a></div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <!-- <div class="col-12 col-lg-4">
                     <div class="ve-sidebar">
                         <div class="ve-sidebar-widget">
                             <h5 class="ve-sidebar-title">Search</h5>
@@ -84,7 +85,7 @@
                             </div>
                         </div> --}}
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
