@@ -5,7 +5,7 @@
         <!-- Left Panel -->
         <div class="ve-hero-left">
             <span class="ve-hero-badge">&nbsp;·&nbsp; Logam Mulia Tasikmalaya &nbsp;·&nbsp; </span>
-            <h1>Tempat Terpercaya<span class="ve-highlight">Jual & Beli</span><br>Emasmu</h1>
+            <h1>Tempat Terpercaya<span class="ve-highlight"> Jual & Beli</span><br>Emasmu</h1>
             <p>Investasi emas terpercaya bersama Logam Mulia Tasikmalaya untuk lindungi nilai aset dan raih keuntungan
                 jangka panjang.</p>
             <div class="ve-hero-btns">
@@ -32,7 +32,7 @@
         </div>
         <!-- Right Panel: overlapping image cards -->
         <div class="ve-hero-right">
-            <div class="ve-hero-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/1.jpeg);"></div>
+            <div class="ve-hero-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/29.jpg);"></div>
             {{-- <div class="ve-hero-img-accent bg-img" style="background-image:url(/fe_assets/img/bg-img/3.jpg);"></div> --}}
             <!-- Floating card -->
             <!-- <div class="ve-float-card">
@@ -46,6 +46,15 @@
     </section>
     <div class="ve-trust-bar">
         <div class="ve-trust-inner">
+            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
+            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
+            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
+            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
+            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
+            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
+            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
+            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
+            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
             <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
             <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
             <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
@@ -109,7 +118,7 @@
                 <!-- Image Side -->
                 <div class="col-12 col-lg-5">
                     <div class="ve-whyus-img-wrap wow fadeInLeft" data-wow-delay="100ms">
-                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/5.jpeg);">
+                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/inig.png);">
                         </div>
                 
                         <!-- <div class="ve-whyus-badge">

@@ -27,38 +27,38 @@
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="100ms">
                     <div class="ve-service-icon"><i class="icon-profits"></i></div>
                     <h4>Beli Emas</h4>
-                    <p>Dapatkan emas asli dengan harga transparan dan update setiap hari untuk investasi yang aman.</p><a
-                        href="#" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <p>Dapatkan emas asli dengan harga transparan dan update setiap hari untuk investasi yang aman.</p>
+                    
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="200ms">
                     <div class="ve-service-icon"><i class="icon-money-1"></i></div>
                     <h4>Jual / Buyback Emas</h4>
-                    <p>Jual emas Anda dengan harga kompetitif dan proses cepat serta terpercaya.</p><a href="#"
-                        class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <p>Jual emas Anda dengan harga kompetitif dan proses cepat serta terpercaya.</p>
+                    
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="300ms">
                     <div class="ve-service-icon"><i class="icon-coin"></i></div>
                     <h4>Tabungan Emas</h4>
-                    <p>Mulai investasi emas dari nominal kecil, cocok untuk pemula yang ingin belajar investasi.</p><a
-                        href="#" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <p>Mulai investasi emas dari nominal kecil, cocok untuk pemula yang ingin belajar investasi.</p>
+                    
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-service-icon"><i class="icon-smartphone-1"></i></div>
                     <h4>Konsultasi Investasi Emas</h4>
-                    <p>Dapatkan panduan langsung untuk menentukan strategi investasi emas yang tepat.</p><a href="#"
-                        class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <p>Dapatkan panduan langsung untuk menentukan strategi investasi emas yang tepat.</p>
+                    
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="500ms">
                     <div class="ve-service-icon"><i class="icon-diamond"></i></div>
                     <h4>Edukasi Investasi Emas</h4>
-                    <p>Pelajari cara membeli, menyimpan, dan menjual emas dengan strategi yang benar.</p><a href="#"
-                        class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <p>Pelajari cara membeli, menyimpan, dan menjual emas dengan strategi yang benar.</p>
+                    
                 </div>
                 <div class="ve-service-card wow fadeInUp" data-wow-delay="600ms">
                     <div class="ve-service-icon"><i class="icon-piggy-bank"></i></div>
                     <h4>Perencanaan Keuangan Berbasis Emas</h4>
-                    <p>Rencanakan masa depan Anda dengan investasi emas yang stabil dan minim risiko.</p><a href="#"
-                        class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a>
+                    <p>Rencanakan masa depan Anda dengan investasi emas yang stabil dan minim risiko.</p>
+                    
                 </div>
             </div>
         </div>

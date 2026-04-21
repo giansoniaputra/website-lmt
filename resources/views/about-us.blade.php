@@ -29,8 +29,7 @@
                     <div class="ve-about-text">
                         <span class="ve-section-tag">Who We Are</span>
                         <h2>Tempat Jual Beli Emas Terpercaya hanya di <span>Logam Mulia Tasikmalaya</span></h2>
-                        <p class="ve-lead">Logam Mulia Tasikmalaya (LMT) hadir sebagai solusi terpercaya untuk masyarakat Tasikmalaya dan sekitarnya dalam berinvestasi emas dengan aman, mudah, dan menguntungkan. Kami berkomitmen memberikan layanan terbaik dalam jual beli emas, baik untuk kebutuhan investasi, tabungan masa depan, maupun perlindungan nilai aset.
-                            Sebagai penyedia emas terpercaya, LMT menawarkan berbagai pilihan gramasi emas yang lengkap, mulai dari ukuran kecil hingga besar, sehingga dapat menjangkau berbagai kebutuhan dan kemampuan finansial masyarakat. Kami juga memastikan setiap produk yang kami tawarkan memiliki kualitas terbaik dan bersertifikat resmi.
+                        <p class="ve-lead">Logam Mulia Tasikmalaya (LMT) hadir sebagai solusi terpercaya untuk masyarakat Tasikmalaya dan sekitarnya dalam berinvestasi emas dengan aman, mudah, dan menguntungkan. Kami berkomitmen memberikan layanan terbaik dalam jual beli emas. Sebagai penyedia emas terpercaya, LMT menawarkan berbagai pilihan gramasi emas yang lengkap, mulai dari ukuran kecil hingga besar, sehingga dapat menjangkau berbagai kebutuhan dan kemampuan finansial masyarakat. Kami juga memastikan setiap produk yang kami tawarkan memiliki kualitas terbaik dan bersertifikat resmi.
                         </p>
                         <p>Tidak hanya itu, kami dikenal dengan layanan buyback (jual kembali) yang kompetitif dan transparan, sehingga pelanggan dapat merasa lebih tenang dan nyaman dalam berinvestasi emas bersama kami. Dengan pelayanan yang ramah, proses yang cepat, serta harga yang update mengikuti pasar, Logam Mulia Tasikmalaya terus berupaya menjadi partner terbaik dalam perjalanan finansial Anda.</p>
                         <div class="ve-about-features">
@@ -82,7 +81,7 @@
         <div class="container">
             <div class="ve-section-header text-center">
                 <span class="ve-section-tag">Meet the Experts</span>
-                <h2>Our Leadership <span>Team</span></h2>
+                <h2>Our<span> Social Media</span></h2>
                 <p>Tenaga profesional berpengalaman yang berdedikasi tinggi dalam mengedukasi masyarakat mengenai keamanan
                     aset logam mulia dan instrumen investasi emas.</p>
             </div>
