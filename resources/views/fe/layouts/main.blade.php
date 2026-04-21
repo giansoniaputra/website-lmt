@@ -112,11 +112,11 @@
                 <div class="col-12 col-sm-6 col-lg-3 mb-50">
                     <h5 class="ve-footer-title">Get In Touch</h5>
                     <ul class="ve-footer-contact">
-                        <li><i class="fa fa-map-marker"></i> Perumahan Bumi Parahyangan Blok P. 5, Setiaratu, Kec.
+                        <li><i class="fa fa-map-marker"></i> Perumahan Bumi Parahyangan Blok P.3, Setiaratu, Kec.
                             Cibeureum, Kab. Tasikmalaya, Jawa Barat 46196</li>
                         <li><i class="fa fa-phone"></i> +{{ $no_telepon }}</li>
                         <li><i class="fa fa-envelope"></i> hello@vaultedge.com</li>
-                        <li><i class="fa fa-clock-o"></i> Mon–Fri, 9am – 6pm</li>
+                        <li><i class="fa fa-clock-o"></i> Mon–Fri, 9am – 5pm</li>
                     </ul>
                 </div>
             </div>

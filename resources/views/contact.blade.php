@@ -1,6 +1,6 @@
 @extends('fe.layouts.main')
 @section('container')
-    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/22.jpg);">
+    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/333.png);">
         <div class="ve-page-hero-overlay"></div>
         <div class="container ve-page-hero-content">
             <span class="ve-section-tag">Get In Touch</span>
@@ -21,7 +21,7 @@
                     <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="100ms">
                         <div class="ve-ci-icon"><i class="fa fa-map-marker"></i></div>
                         <h5>Visit Our Office</h5>
-                        <p>4Perumahan Bumi Parahyangan Blok P. 5, Setiaratu, Kec. Cibeureum, Kab. Tasikmalaya, Jawa Barat
+                        <p>Perumahan Bumi Parahyangan Blok P. 3, Setiaratu, Kec. Cibeureum, Kab. Tasikmalaya, Jawa Barat
                             46196
                         </p>
                     </div>

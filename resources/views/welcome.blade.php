@@ -4,8 +4,8 @@
     <section class="ve-hero">
         <!-- Left Panel -->
         <div class="ve-hero-left">
-            <span class="ve-hero-badge">Logam Mulia &nbsp;·&nbsp; Tasikmalaya</span>
-            <h1>Bangun <span class="ve-highlight">Masa Depanmu</span><br>dengan Investasi Emas</h1>
+            <span class="ve-hero-badge">&nbsp;·&nbsp; Logam Mulia Tasikmalaya &nbsp;·&nbsp; </span>
+            <h1>Tempat Terpercaya<span class="ve-highlight">Jual & Beli</span><br>Emasmu</h1>
             <p>Investasi emas terpercaya bersama Logam Mulia Tasikmalaya untuk lindungi nilai aset dan raih keuntungan
                 jangka panjang.</p>
             <div class="ve-hero-btns">

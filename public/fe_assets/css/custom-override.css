@@ -113,8 +113,8 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; color: var(--ve-dark); }
    ============================================================ */
 .ve-hero {
   display:flex; min-height:100vh;
-  padding-top:72px; background:var(--ve-dark);
-  overflow:hidden;
+  padding-top:3px; background:var(--ve-dark2);
+  /* overflow:hidden; */
 }
 .ve-hero-left {
   flex:0 0 55%; padding:80px 60px 80px 80px;
