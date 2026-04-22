@@ -130,7 +130,7 @@
                 <!-- Content Side -->
                 <div class="col-12 col-lg-7 wow fadeInRight" data-wow-delay="200ms">
                     <div class="ve-whyus-content">
-                        <span class="ve-section-tag">WHY VAULTEDGE</span>
+                        <span class="ve-section-tag">Kenapa LMT?</span>
                         <h2>Pilihan Tepat untuk <span>Investasi Emas</span> yang Aman</h2>
                         <p>Kami menghadirkan layanan investasi emas yang aman, transparan, dan terpercaya untuk membantu
                             Anda menjaga nilai aset serta mempersiapkan masa depan finansial yang lebih baik.</p>
