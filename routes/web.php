@@ -17,3 +17,6 @@ Route::get('/product', function () {
 Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact']);
 });
+Route::get('/edukasi', function () {
+    return view('edukasi', ['title' => 'edukasi']);
+});
