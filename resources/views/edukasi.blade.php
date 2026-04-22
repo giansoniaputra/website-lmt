@@ -1,6 +1,6 @@
 @extends('fe.layouts.main')
 @section('container')
-    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/333.png);">
+    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/tah.png);">
         <div class="ve-page-hero-overlay"></div>
         <div class="container ve-page-hero-content"> 
             <span class="ve-section-tag">News</span>
@@ -18,18 +18,19 @@
         <div class="container">
             <div class="ve-section-header text-center">
                 <span class="ve-section-tag">Blog &amp; News</span>
-                <h2>Latest Financial <span>Insights</span></h2>
+                <h2>Emas Lindungi <span>Aset</span></h2>
                 <p>Investasi cerdas untuk menjaga nilai, melindungi aset, dan menenangkan masa depan Anda.</p>
             </div>
             <div class="row">
+                @for($i=0;$i<3;$i++)
                 <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="250ms">
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img" style="background-image:url(/fe_assets/img/bg-img/11.jpg);">
                         </div>
                         <div class="ve-insight-body">
-                            <span class="ve-insight-cat">Credit</span>
-                            <h5><a href="single-post.html">Understanding Your Credit Score in 2025</a></h5>
-                            <p>Learn the key factors that influence your credit score and how to improve it fast.</p>
+                            <span class="ve-insight-cat">News</span>
+                            <h5><a href="single-post.html">Kenaikan Harga Emas: Proyeksi US$ 4.900 pada 2026</a></h5>
+                            <p>Harga emas, yang secara tradisional dianggap sebagai aset aman (safe haven), sekali lagi menarik perhatian investor global....</p>
                             <div class="ve-insight-meta">
                                 <span><i class="fa fa-calendar"></i> April 20</span>
                                 <a href="single-post.html">Read More <i class="fa fa-arrow-right"></i></a>
@@ -37,6 +38,7 @@
                         </div>
                     </div>
                 </div>
+                 @endfor
                 <!-- <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img" style="background-image:url(/fe_assets/img/bg-img/12.jpg);">
