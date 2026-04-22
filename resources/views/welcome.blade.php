@@ -5,7 +5,7 @@
         <!-- Left Panel -->
         <div class="ve-hero-left">
             <span class="ve-hero-badge">&nbsp;·&nbsp; Logam Mulia Tasikmalaya &nbsp;·&nbsp; </span>
-            <h1>Tempat Terpercaya<span class="ve-highlight"> Jual & Beli</span><br>Emasmu</h1>
+            <h1>Tempat Terpercaya<span class="ve-highlight"> Jual & Beli Emasmu</span></h1>
             <p>Investasi emas terpercaya bersama Logam Mulia Tasikmalaya untuk lindungi nilai aset dan raih keuntungan
                 jangka panjang.</p>
             <div class="ve-hero-btns">
