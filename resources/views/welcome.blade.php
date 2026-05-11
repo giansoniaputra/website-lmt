@@ -204,7 +204,7 @@
                     <div class="ve-testi-author">
                         <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
                         </div>
-                        <div><strong>Hamni R.Hasibuan</strong><span>Karyawan Swasta</span></div>
+                        <div><strong>Hamni R.H</strong><span>Karyawan Swasta</span></div>
                     </div>
                 </div>
                 <div class="ve-testi-card wow fadeInUp" data-wow-delay="250ms">
@@ -218,7 +218,7 @@
                 </div>
                 <div class="ve-testi-card wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"Aman mudah dan terpercaya! Wajib cobain nanti ketagihan investasi emas apalagi beli dan buybacknya di Logam Mulia Tasikmalaya"</p>
+                    <p>"Wajib cobain nanti ketagihan investasi emas apalagi beli dan buybacknya di Logam Mulia Tasikmalaya"</p>
                     <div class="ve-testi-author">
                         <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
                         </div>
