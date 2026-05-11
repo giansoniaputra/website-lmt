@@ -247,7 +247,7 @@
     </section>
 
     <!-- ===== LATEST INSIGHTS ===== -->
-    <section class="ve-section ve-insights-section">
+    <!-- <section class="ve-section ve-insights-section">
         <div class="container">
             <div class="ve-section-header text-center">
                 <span class="ve-section-tag">Blog &amp; News</span>
@@ -303,7 +303,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     {{-- <!-- ===== NEWSLETTER ===== -->
     <section class="ve-newsletter-section">
