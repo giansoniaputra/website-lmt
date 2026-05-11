@@ -200,32 +200,29 @@
             <div class="ve-testi-grid">
                 <div class="ve-testi-card wow fadeInUp" data-wow-delay="100ms">
                     <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"VaultEdge transformed how I manage my finances. My portfolio has grown by 22% in just 18 months.
-                        Incredible service!"</p>
+                    <p>"Harga Kompetitif aman dan percaya kalo soal emas ya di Logam Mulia Tasikmalaya"</p>
                     <div class="ve-testi-author">
-                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/32.jpg);">
+                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
                         </div>
-                        <div><strong>Alex Morgan</strong><span>Entrepreneur</span></div>
+                        <div><strong>Hamni R.Hasibuan</strong><span>Karyawan Swasta</span></div>
                     </div>
                 </div>
                 <div class="ve-testi-card wow fadeInUp" data-wow-delay="250ms">
                     <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"The retirement planning team at VaultEdge gave me total peace of mind. Professional, responsive,
-                        and results-driven."</p>
+                    <p>"Pokonya ga nyesel beli aset emas di Logam Mulia Tasikmalaya. Next Mau order lagi pokoknyaaaa"</p>
                     <div class="ve-testi-author">
-                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/33.jpg);">
+                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
                         </div>
-                        <div><strong>Sarah Patel</strong><span>Marketing Director</span></div>
+                        <div><strong>Gian</strong><span>Karyawan Swasta</span></div>
                     </div>
                 </div>
                 <div class="ve-testi-card wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"Switched from our old firm and couldn't be happier. Their tax advisory alone saved us thousands
-                        in the first year."</p>
+                    <p>"Aman mudah dan terpercaya! Wajib cobain nanti ketagihan investasi emas apalagi beli dan buybacknya di Logam Mulia Tasikmalaya"</p>
                     <div class="ve-testi-author">
-                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/14.jpg);">
+                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
                         </div>
-                        <div><strong>James Liu</strong><span>Business Owner</span></div>
+                        <div><strong>Agung P</strong><span>Co Founder</span></div>
                     </div>
                 </div>
             </div>
