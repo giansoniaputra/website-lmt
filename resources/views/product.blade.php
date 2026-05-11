@@ -10,7 +10,7 @@
         <span class="ve-section-tag">Our Product</span>
 
         <h1>
-            Financial <span>Produk Emas</span><br>
+            Investasi <span>Emas</span><br>
             Untuk Masa Depan Anda
         </h1>
 
