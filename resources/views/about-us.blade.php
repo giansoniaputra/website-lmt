@@ -77,7 +77,7 @@
     </section>
 
     <!-- TEAM -->
-    <section class="ve-section ve-team-section">
+    <!-- <section class="ve-section ve-team-section">
         <div class="container">
             <div class="ve-section-header text-center">
                 <span class="ve-section-tag">Meet the Experts</span>
@@ -128,7 +128,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- <section class="ve-counter-section">
         <div class="container">
             <div class="ve-counter-grid">
