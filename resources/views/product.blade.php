@@ -162,7 +162,7 @@
                                     Stok : 12
                                 </span>
 
-                                    <img src="/fe_assets/img/bg-img/mulai.png"
+                                    <img src="/fe_assets/img/bg-img/tes.png"
                                         class="img-fluid rounded mb-3"
                                         alt="Antam Redmark 50gr">
                                 <span class="ve-insight-cat">
