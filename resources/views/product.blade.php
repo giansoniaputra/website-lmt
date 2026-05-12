@@ -50,9 +50,9 @@
                             transform:rotate(0deg);
                             background:#d4af37;
                             color:#fff;
-                            padding:4px 10px;
+                            padding:0px 10px;
                             font-size:10px;
-                            font-weight:200;
+                            font-weight:300;
                             z-index:10;
                             letter-spacing:1px;
                             box-shadow:0 2px 8px rgba(0,0,0,0.2);
@@ -82,10 +82,30 @@
 
                                 <div class="ve-insight-meta">
 
-                                    <button type="button"
+                                    <!-- <button type="button"
                                         class="btn btn-warning btn-sm"
                                         data-toggle="modal"
                                         data-target="#exampleModal{{$i}}">
+
+                                        Beli Sekarang!
+                                        <i class="fa fa-arrow-right ml-1"></i>
+
+                                    </button> -->
+                                    <button type="button"
+                                        class="btn btn-sm"
+                                        data-toggle="modal"
+                                        data-target="#exampleModal{{$i}}"
+                                        style="
+                                            background:#d4af37;
+                                            color:#fff;
+                                            border:none;
+                                            padding:8px 16px;
+                                            font-weight:500;
+                                            border-radius:6px;
+                                            transition:0.3s;
+                                        "
+                                        onmouseover="this.style.background='#bf9b30'"
+                                        onmouseout="this.style.background='#d4af37'">
 
                                         Beli Sekarang!
                                         <i class="fa fa-arrow-right ml-1"></i>
