@@ -46,13 +46,13 @@
                         <span style="
                             position:absolute;
                             top:1px;
-                            right:-1px;
+                            right:-5px;
                             transform:rotate(0deg);
                             background:#d4af37;
                             color:#fff;
-                            padding:0px 10px;
+                            padding:4px 10px;
                             font-size:10px;
-                            font-weight:300;
+                            font-weight:;
                             z-index:10;
                             letter-spacing:1px;
                             box-shadow:0 2px 8px rgba(0,0,0,0.2);
@@ -81,36 +81,26 @@
                                 </h6>
 
                                 <div class="ve-insight-meta">
+                                        <button type="button"
+                                            class="btn btn-sm"
+                                            data-toggle="modal"
+                                            data-target="#exampleModal{{$i}}"
+                                            style="
+                                                background:#d4af37;
+                                                color:#fff;
+                                                border:none;
+                                                padding:8px 16px;
+                                                font-weight:500;
+                                                border-radius:6px;
+                                                transition:0.3s;
+                                            "
+                                            onmouseover="this.style.background='#bf9b30'"
+                                            onmouseout="this.style.background='#d4af37'">
 
-                                    <!-- <button type="button"
-                                        class="btn btn-warning btn-sm"
-                                        data-toggle="modal"
-                                        data-target="#exampleModal{{$i}}">
+                                            Beli Sekarang!
+                                            <i class="fa fa-arrow-right ml-1"></i>
 
-                                        Beli Sekarang!
-                                        <i class="fa fa-arrow-right ml-1"></i>
-
-                                    </button> -->
-                                    <button type="button"
-                                        class="btn btn-sm"
-                                        data-toggle="modal"
-                                        data-target="#exampleModal{{$i}}"
-                                        style="
-                                            background:#d4af37;
-                                            color:#fff;
-                                            border:none;
-                                            padding:8px 16px;
-                                            font-weight:500;
-                                            border-radius:6px;
-                                            transition:0.3s;
-                                        "
-                                        onmouseover="this.style.background='#bf9b30'"
-                                        onmouseout="this.style.background='#d4af37'">
-
-                                        Beli Sekarang!
-                                        <i class="fa fa-arrow-right ml-1"></i>
-
-                                    </button>
+                                        </button>
 
                                 </div>
 
@@ -175,7 +165,9 @@
                                     <img src="/fe_assets/img/bg-img/mulai.png"
                                         class="img-fluid rounded mb-3"
                                         alt="Antam Redmark 50gr">
-
+                                <span class="ve-insight-cat">
+                                    Red Mark atau Non Redmark
+                                </span>
                                     <p class="mb-0">
                                         Antam 50 Gram Emas Logam Mulia Press Certieye
                                         dengan sertifikat resmi dan kualitas terbaik.
