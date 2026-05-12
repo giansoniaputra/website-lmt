@@ -154,8 +154,9 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="https://wa.me/{{ $no_telepon }}" target="_blank" class="ve-btn-primary mt-30">Contact
-                            Us</a>
+                       <a href="https://wa.me/{{ $no_telepon }}?text=Hello!%20Saya%20ingin%20bertanya%20terkait%20emasnya%20apakah%20ready%3F" target="_blank" class="ve-btn-primary mt-30">
+    Contact Us
+</a>
                     </div>
                 </div>
             </div>

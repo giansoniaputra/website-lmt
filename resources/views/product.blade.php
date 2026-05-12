@@ -135,7 +135,7 @@
                                         class="btn btn-secondary"
                                         data-dismiss="modal">
 
-                                        Close
+                                        Keluar
 
                                     </button>
 
