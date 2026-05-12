@@ -42,6 +42,23 @@
 
                     <!-- CARD -->
                     <div class="col-lg-3 col-md-6 col-sm-12 mb-4 wow fadeInUp" data-wow-delay="100ms">
+                <!-- RIBBON AVAILABLE -->
+                        <span style="
+                            position:absolute;
+                            top:1px;
+                            right:-1px;
+                            transform:rotate(0deg);
+                            background:#d4af37;
+                            color:#fff;
+                            padding:4px 10px;
+                            font-size:10px;
+                            font-weight:200;
+                            z-index:10;
+                            letter-spacing:1px;
+                            box-shadow:0 2px 8px rgba(0,0,0,0.2);
+                        ">
+                            Ready Stock
+                        </span>
 
                         <div class="ve-insight-card h-100">
 
