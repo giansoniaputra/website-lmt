@@ -115,7 +115,25 @@
                                 </div>
 
                                 <!-- BODY -->
-                                <div class="modal-body text-center">
+                                <!-- <div class="modal-body text-center">
+
+                                    <img src="/fe_assets/img/bg-img/mulai.png"
+                                        class="img-fluid rounded mb-3"
+                                        alt="Antam Redmark 50gr">
+
+                                    <p class="mb-0">
+                                        Antam 50 Gram Emas Logam Mulia Press Certieye
+                                        dengan sertifikat resmi dan kualitas terbaik.
+                                    </p>
+
+                                </div> -->
+                                <div class="modal-body text-center position-relative">
+
+                                    <!-- Badge Stock -->
+                                  <span class="badge position-absolute"
+                                    style="top:15px; right:15px; background:#d4af37; color:#fff; font-size:14px; padding:8px 12px;">
+                                    Stok : 12
+                                </span>
 
                                     <img src="/fe_assets/img/bg-img/mulai.png"
                                         class="img-fluid rounded mb-3"
@@ -127,7 +145,6 @@
                                     </p>
 
                                 </div>
-
                                 <!-- FOOTER -->
                                 <div class="modal-footer">
 
