@@ -71,7 +71,7 @@
                             <div class="ve-insight-body">
 
                                 <span class="ve-insight-cat">
-                                    Red Mark
+                                    Brand Emas
                                 </span>
 
                                 <h6 class="mb-3">
@@ -166,7 +166,7 @@
                                         class="img-fluid rounded mb-3"
                                         alt="Antam Redmark 50gr">
                                 <span class="ve-insight-cat">
-                                    Red Mark atau Non Redmark
+                                    Brand Emas/Jenis Emas 
                                 </span>
                                     <p class="mb-0">
                                         Antam 50 Gram Emas Logam Mulia Press Certieye
