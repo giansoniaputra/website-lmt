@@ -9,8 +9,8 @@
             <p>Investasi emas terpercaya bersama Logam Mulia Tasikmalaya untuk lindungi nilai aset dan raih keuntungan
                 jangka panjang.</p>
             <div class="ve-hero-btns">
-                <a href="services.html" class="ve-btn-primary">Explore Product</a>
-                <a href="about.html" class="ve-btn-ghost">Explore Services</a>
+                <a href="/product" class="ve-btn-primary">Explore Product</a>
+                <a href="/service" class="ve-btn-ghost">Explore Services</a>
             </div>
             <!-- Quick Stats Row -->
             {{-- <div class="ve-hero-stats">
@@ -154,9 +154,11 @@
                                 </div>
                             </div>
                         </div>
-                       <a href="https://wa.me/{{ $no_telepon }}?text=Hello!%20Saya%20ingin%20bertanya%20terkait%20emasnya%20apakah%20ready%3F" target="_blank" class="ve-btn-primary mt-30">
-    Contact Us
-</a>
+                       <a href="https://wa.me/6282128055123?text=Hello%20saya%20ingin%20bertanya%20terkait%20emasnya%20apakah%20ready%3F" 
+                                target="_blank" 
+                                class="ve-btn-primary mt-30">
+                                    Contact Us
+                     </a>
                     </div>
                 </div>
             </div>
