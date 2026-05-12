@@ -64,7 +64,7 @@
 
                             <!-- IMAGE -->
                             <div class="ve-insight-img bg-img"
-                                style="background-image:url(/fe_assets/img/bg-img/mulai.png);">
+                                style="background-image:url(/fe_assets/img/bg-img/tes.png);">
                             </div>
 
                             <!-- BODY -->
