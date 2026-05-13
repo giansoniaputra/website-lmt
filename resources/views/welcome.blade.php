@@ -243,7 +243,11 @@
                         terbaik untuk masa depan finansial yang lebih aman.</p>
                 </div>
                 <div class="col-12 col-lg-4 text-lg-right">
-                     <a href="https://wa.me/{{ $no_telepon }}" target="_blank" class="ve-btn-primary mt-30">Konsultasikan</a>
+                     <a href="https://wa.me/6282128055123?text=Hello%20kak%2C%20saya%20ingin%20konsultasi%20terkait%20emasnya" 
+   target="_blank" 
+   class="ve-btn-primary mt-30">
+    Konsultasi Sekarang!
+</a>
                 </div>
             </div>
         </div>
