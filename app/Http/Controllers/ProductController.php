@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 use Yajra\DataTables\Facades\DataTables;
 
 class ProductController extends Controller
@@ -34,14 +36,14 @@ class ProductController extends Controller
     {
         $rules = [
             'judul' => 'required',
-            'janis' => 'required',
+            'jenis' => 'required',
             'stok' => 'required',
             'deskripsi' => 'required',
-            'photo' => 'required|files|image|mimes:jpg,jpeg,png',
+            'photo' => 'required|file|image|mimes:jpg,jpeg,png',
         ];
         $pesan = [
             'judul.required' => 'Judul tidak boleh kosong!',
-            'janis.required' => 'Jenis tidak boleh kosong!',
+            'jenis.required' => 'Jenis tidak boleh kosong!',
             'stok.required' => 'Stok tidak boleh kosong!',
             'deskripsi.required' => 'Deskripsi tidak boleh kosong!',
             'photo.required' => 'Photo tidak boleh kosong!',
@@ -51,6 +53,12 @@ class ProductController extends Controller
         $validator = Validator::make($request->all(), $rules, $pesan);
         if ($validator->fails()) {
             return response()->json(['errors' => $validator->errors()])->setStatusCode(400);
+        } else {
+            $product = new Product($request->all());
+            $product->uuid = Str::orderedUuid();
+            $product->photo = $request->file('photo')->store('photo');
+            $product->save();
+            return response()->json(['success' => 'Product Berhasil Ditambahkan!']);
         }
     }
 
@@ -67,7 +75,7 @@ class ProductController extends Controller
      */
     public function edit(Product $product)
     {
-        //
+        return response()->json(['data' => $product]);
     }
 
     /**
@@ -75,7 +83,36 @@ class ProductController extends Controller
      */
     public function update(Request $request, Product $product)
     {
-        //
+        $rules = [
+            'judul' => 'required',
+            'jenis' => 'required',
+            'stok' => 'required',
+            'deskripsi' => 'required',
+        ];
+        $pesan = [
+            'judul.required' => 'Judul tidak boleh kosong!',
+            'jenis.required' => 'Jenis tidak boleh kosong!',
+            'stok.required' => 'Stok tidak boleh kosong!',
+            'deskripsi.required' => 'Deskripsi tidak boleh kosong!',
+        ];
+        if ($request->file('photo')) {
+            $rules['photo'] = 'file|image|mimes:jpg,jpeg,png';
+            $pesan['photo.image'] = 'Format gambar tidak valid!';
+            $pesan['photo.mimes'] = 'Format gambar harus JPG/JPEG/PNG!';
+        }
+        $validator = Validator::make($request->all(), $rules, $pesan);
+        if ($validator->fails()) {
+            return response()->json(['errors' => $validator->errors()])->setStatusCode(400);
+        } else {
+            $oldPhoto = $product->photo;
+            $product->fill($request->all());
+            if ($request->file('photo')) {
+                Storage::delete($oldPhoto);
+                $product->photo = $request->file('photo')->store('photo');
+            }
+            $product->save();
+            return response()->json(['success' => 'Product Berhasil Diubah!']);
+        }
     }
 
     /**
@@ -83,7 +120,9 @@ class ProductController extends Controller
      */
     public function destroy(Product $product)
     {
-        //
+        Storage::delete($product->photo);
+        Product::destroy($product->id);
+        return response()->json(['success' => 'Product Berhasil Dihapus!']);
     }
 
     public function dataTables(Request $request)
