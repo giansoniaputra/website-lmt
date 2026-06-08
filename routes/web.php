@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -12,7 +13,10 @@ Route::get('/service', function () {
     return view('service', ['title' => 'Service']);
 });
 Route::get('/product', function () {
-    return view('product', ['title' => 'Product']);
+    return view('product', [
+        'title' => 'Product',
+        'products' => Product::paginate(12)
+    ]);
 });
 Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact']);
