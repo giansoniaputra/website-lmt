@@ -43,6 +43,7 @@
                     <li><a href="/about" {{ $title == 'About Us' ? 'class=active' : '' }}>About Us</a></li>
                     <li><a href="/service" {{ $title == 'Service' ? 'class=active' : '' }}>Our Services</a></li>
                     <li><a href="/product" {{ $title == 'Product' ? 'class=active' : '' }}>Product</a></li>
+                    <li><a href="/buyback" {{ $title == 'buyback' ? 'class=active' : '' }}>Edukasi Emas</a></li>
                     <li><a href="/contact" {{ $title == 'Contact' ? 'class=active' : '' }}>Contact</a></li>
                     <li><a href="/edukasi" {{ $title == 'edukasi' ? 'class=active' : '' }}>Edukasi Emas</a></li>
                 </ul>
