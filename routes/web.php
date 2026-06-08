@@ -12,6 +12,9 @@ Route::get('/about', function () {
 Route::get('/service', function () {
     return view('service', ['title' => 'Service']);
 });
+Route::get('/buyback', function () {
+    return view('buyback', ['title' => 'buyback']);
+});
 Route::get('/product', function () {
     return view('product', [
         'title' => 'Product',
@@ -24,3 +27,10 @@ Route::get('/contact', function () {
 Route::get('/edukasi', function () {
     return view('edukasi', ['title' => 'edukasi']);
 });
+// Route::get('/buyback', function () {
+//     return view('buyback', [
+//         'title' => 'Buyback',
+//         'products' => Product::paginate(12)
+//     ]);
+// });
+

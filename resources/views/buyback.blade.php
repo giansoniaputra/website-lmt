@@ -1,49 +1,6 @@
 @extends('fe.layouts.main')
 @section('container')
     <!-- ===== HERO: Split layout — left text, right image panel ===== -->
-    <section class="ve-hero">
-        <!-- Left Panel -->
-        <div class="ve-hero-left">
-            <span class="ve-hero-badge">&nbsp;·&nbsp; Logam Mulia Tasikmalaya &nbsp;·&nbsp; </span>
-            <h1>Tempat Terpercaya<span class="ve-highlight"> Jual & Beli Emasmu</span></h1>
-            <p>Investasi emas terpercaya bersama Logam Mulia Tasikmalaya untuk lindungi nilai aset dan raih keuntungan
-                jangka panjang.</p>
-            <div class="ve-hero-btns">
-                <a href="/product" class="ve-btn-primary">Explore Product</a>
-                <a href="/service" class="ve-btn-ghost">Explore Services</a>
-            </div>
-            <!-- Quick Stats Row -->
-            {{-- <div class="ve-hero-stats">
-                <div class="ve-stat">
-                    <strong>$4.2B+</strong>
-                    <span>Assets Managed</span>
-                </div>
-                <div class="ve-stat-divider"></div>
-                <div class="ve-stat">
-                    <strong>97%</strong>
-                    <span>Client Satisfaction</span>
-                </div>
-                <div class="ve-stat-divider"></div>
-                <div class="ve-stat">
-                    <strong>12+</strong>
-                    <span>Years Experience</span>
-                </div>
-            </div> --}}
-        </div>
-        <!-- Right Panel: overlapping image cards -->
-        <div class="ve-hero-right">
-            <div class="ve-hero-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/29.jpg);"></div>
-            {{-- <div class="ve-hero-img-accent bg-img" style="background-image:url(/fe_assets/img/bg-img/3.jpg);"></div> --}}
-            <!-- Floating card -->
-            <!-- <div class="ve-float-card">
-                <i class="fa fa-line-chart"></i>
-                <div>
-                    <strong>+18.4%</strong>
-                    <span>Annual Returns</span>
-                </div>
-            </div> -->
-        </div>
-    </section>
     <div class="ve-trust-bar">
         <div class="ve-trust-inner">
             <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
@@ -62,54 +19,6 @@
     </div>
 
     <!-- ===== SERVICES GRID (new card layout) ===== -->
-    <section class="ve-section ve-services-section">
-        <div class="container">
-            <div class="ve-section-header text-center">
-                <span class="ve-section-tag">What We Offer</span>
-                <h2>Solusi Investasi Emas untuk <span>Masa Depan Anda</span></h2>
-                <p>Mulai dari pembelian emas, jual kembali (buyback), hingga edukasi investasi—kami siap membantu Anda di
-                    setiap langkah menuju masa depan finansial yang lebih aman.</p>
-            </div>
-            <div class="ve-services-grid">
-                <div class="ve-service-card wow fadeInUp" data-wow-delay="100ms">
-                    <div class="ve-service-icon"><i class="icon-profits"></i></div>
-                    <h4>Beli Emas</h4>
-                    <p>Dapatkan emas asli dengan harga transparan dan diperbarui setiap hari.</p>
-                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
-                </div>
-                <div class="ve-service-card wow fadeInUp" data-wow-delay="200ms">
-                    <div class="ve-service-icon"><i class="icon-money-1"></i></div>
-                    <h4>Jual / Buyback Emas</h4>
-                    <p>Jual emas Anda dengan harga kompetitif, proses cepat, dan terpercaya.</p>
-                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
-                </div>
-                <div class="ve-service-card wow fadeInUp" data-wow-delay="300ms">
-                    <div class="ve-service-icon"><i class="icon-coin"></i></div>
-                    <h4>Tabungan Emas</h4>
-                    <p>Mulai investasi emas dari nominal kecil, cocok untuk pemula.</p>
-                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
-                </div>
-                <div class="ve-service-card wow fadeInUp" data-wow-delay="400ms">
-                    <div class="ve-service-icon"><i class="icon-smartphone-1"></i></div>
-                    <h4>Konsultasi Investasi</h4>
-                    <p>Kami bantu Anda menentukan strategi investasi emas yang tepat sesuai kebutuhan.</p>
-                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
-                </div>
-                <div class="ve-service-card wow fadeInUp" data-wow-delay="500ms">
-                    <div class="ve-service-icon"><i class="icon-diamond"></i></div>
-                    <h4>Edukasi Investasi Emas</h4>
-                    <p>Pelajari cara berinvestasi emas dengan benar agar lebih aman dan menguntungkan.</p>
-                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
-                </div>
-                <div class="ve-service-card wow fadeInUp" data-wow-delay="600ms">
-                    <div class="ve-service-icon"><i class="icon-piggy-bank"></i></div>
-                    <h4>Perencanaan Keuangan</h4>
-                    <p>Rencanakan masa depan Anda dengan strategi berbasis emas yang stabil.</p>
-                    <!-- <a href="services.html" class="ve-card-link">Learn more <i class="fa fa-long-arrow-right"></i></a> -->
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- ===== WHY US (two-column: image left, content right) ===== -->
     <section class="ve-section ve-whyus-section">
@@ -118,7 +27,7 @@
                 <!-- Image Side -->
                 <div class="col-12 col-lg-5">
                     <div class="ve-whyus-img-wrap wow fadeInLeft" data-wow-delay="100ms">
-                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/inig.png);">
+                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/your.png);">
                         </div>
                 
                         <!-- <div class="ve-whyus-badge">
@@ -131,8 +40,8 @@
                 <div class="col-12 col-lg-7 wow fadeInRight" data-wow-delay="200ms">
                     <div class="ve-whyus-content">
                         <span class="ve-section-tag">Kenapa LMT?</span>
-                        <h2>Pilihan Tepat untuk <span>Investasi Emas</span> yang Aman</h2>
-                        <p>Kami menghadirkan layanan investasi emas yang aman, transparan, dan terpercaya untuk membantu
+                        <h2>Pilihan Tepat untuk <span>Buyback Emas</span> yang Aman</h2>
+                        <p>Kami menghadirkan layanan buyback emas yang aman, transparan, dan terpercaya untuk membantu
                             Anda menjaga nilai aset serta mempersiapkan masa depan finansial yang lebih baik.</p>
                         <div class="ve-checklist">
                             <div class="ve-check-item">
@@ -154,11 +63,11 @@
                                 </div>
                             </div>
                         </div>
-                       <a href="https://wa.me/6282128055123?text=Hello%20saya%20ingin%20bertanya%20terkait%20emasnya%20apakah%20ready%3F" 
-                                target="_blank" 
-                                class="ve-btn-primary mt-30">
-                                    Contact Us
-                     </a>
+                       <a href="https://wa.me/6282128055123?text=Halo%20Admin,%20saya%20ingin%20bertanya%20terkait%20buyback%20emas."
+   target="_blank"
+   class="ve-btn-primary mt-30">
+    Jual Emas Sekarang!
+</a>
                     </div>
                 </div>
             </div>
