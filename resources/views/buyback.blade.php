@@ -27,7 +27,7 @@
                 <!-- Image Side -->
                 <div class="col-12 col-lg-5">
                     <div class="ve-whyus-img-wrap wow fadeInLeft" data-wow-delay="100ms">
-                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/your.png);">
+                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/Your.png);">
                         </div>
                 
                         <!-- <div class="ve-whyus-badge">
