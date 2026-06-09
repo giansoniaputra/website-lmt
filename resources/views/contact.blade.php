@@ -28,13 +28,13 @@
                 </a>
                 <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="250ms">
                     <div class="ve-ci-icon"><i class="fa fa-phone"></i></div>
-                    <h5>Call Us</h5>
-                    <p>+1 800 555 0199<br><small>Mon–Fri, 9am – 6pm PST</small></p>
+                    <h5>Call Us and Whatsapp</h5>
+                    <p>0821-2805-5123<br><small>Monday – Saturday, 9:00 AM – 5:00 PM</small></p>
                 </div>
                 <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-ci-icon"><i class="fa fa-envelope"></i></div>
                     <h5>Email Us</h5>
-                    <p>hello@vaultedge.com<br><small>We reply within 24 hours</small></p>
+                    <p>logammuliatasikmalaya@gmail.com<br><small>We reply within 24 hours</small></p>
                 </div>
             </div>
         </div>

@@ -1,47 +1,35 @@
 @extends('fe.layouts.main')
 @section('container')
-    <!-- ===== HERO: Split layout — left text, right image panel ===== -->
-    <div class="ve-trust-bar">
-        <div class="ve-trust-inner">
-            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
-            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
-            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
-            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
-            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
-            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
-            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
-            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
-            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
-            <span><i class="fa fa-shield"></i> Logam Mulia Tasikmalaya</span>
-            <span><i class="fa fa-check-circle"></i> Teman Investasi</span>
-            <span><i class="fa fa-users"></i> Pilih yang terpercaya</span>
+    <section class="ve-page-hero" style="background-image:url(/fe_assets/img/bg-img/Readyy.png);">
+        <div class="ve-page-hero-overlay"></div>
+        <div class="container ve-page-hero-content">
+            <span class="ve-section-tag">Jual Emasmu Disini!</span>
+            <h1>Buyback Emasmu Hanya<span> di LMT</span></h1>
+            <nav aria-label="breadcrumb">
+                <ol class="ve-breadcrumb">
+                    <li><a href="/">LMT</a></li>
+                    <li class="active">Buyback</li>
+                </ol>
+            </nav>
         </div>
-    </div>
+    </section>
 
-    <!-- ===== SERVICES GRID (new card layout) ===== -->
-
-    <!-- ===== WHY US (two-column: image left, content right) ===== -->
-    <section class="ve-section ve-whyus-section">
+    <!-- ABOUT SPLIT -->
+    <!-- <section class="ve-section">
         <div class="container">
             <div class="row align-items-center">
-                <!-- Image Side -->
-                <div class="col-12 col-lg-5">
-                    <div class="ve-whyus-img-wrap wow fadeInLeft" data-wow-delay="100ms">
-                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/Your.png);">
+                <div class="col-12 col-lg-6 wow fadeInLeft" data-wow-delay="100ms">
+                    <div class="ve-about-img-stack">
+                        <div class="ve-about-img-1 bg-img" style="background-image:url(/fe_assets/img/bg-img/Your.png);">
                         </div>
-                
-                        <!-- <div class="ve-whyus-badge">
-                            <strong>12+</strong>
-                            <span>Years of Financial Excellence</span>
-                        </div> -->
+                        <div class="ve-about-img-2 bg-img" style="background-image:url(/fe_assets/img/bg-img/sinar.png);"></div>
                     </div>
                 </div>
-                <!-- Content Side -->
-                <div class="col-12 col-lg-7 wow fadeInRight" data-wow-delay="200ms">
-                    <div class="ve-whyus-content">
+                <div class="col-12 col-lg-6 wow fadeInRight" data-wow-delay="200ms">
+                     <div class="ve-whyus-content">
                         <span class="ve-section-tag">Kenapa LMT?</span>
-                        <h2>Pilihan Tepat untuk <span>Buyback Emas</span> yang Aman</h2>
-                        <p>Kami menghadirkan layanan buyback emas yang aman, transparan, dan terpercaya untuk membantu
+                        <h2>Pilihan Tepat untuk <span>Investasi Emas</span> yang Aman</h2>
+                        <p>Kami menghadirkan layanan investasi emas yang aman, transparan, dan terpercaya untuk membantu
                             Anda menjaga nilai aset serta mempersiapkan masa depan finansial yang lebih baik.</p>
                         <div class="ve-checklist">
                             <div class="ve-check-item">
@@ -72,9 +60,144 @@
                 </div>
             </div>
         </div>
+    </section> -->
+      <section class="ve-section ve-whyus-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image Side -->
+                <div class="col-12 col-lg-5">
+                    <div class="ve-whyus-img-wrap wow fadeInLeft" data-wow-delay="100ms">
+                        <div class="ve-whyus-img-main bg-img" style="background-image:url(/fe_assets/img/bg-img/bb.png);">
+                        </div>
+                
+                        <!-- <div class="ve-whyus-badge">
+                            <strong>12+</strong>
+                            <span>Years of Financial Excellence</span>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- Content Side -->
+                <div class="col-12 col-lg-7 wow fadeInRight" data-wow-delay="200ms">
+                    <div class="ve-whyus-content">
+                        <span class="ve-section-tag">Kenapa LMT?</span>
+                        <h2>Pilihan Tepat untuk <span>Jual kembali Emasmu</span> dengan aman</h2>
+                        <p>Kami menghadirkan layanan buyback emas yang aman, transparan, dan terpercaya untuk membantu
+                            Anda menjaga nilai aset serta mempersiapkan masa depan finansial yang lebih baik.</p>
+                        <div class="ve-checklist">
+                            <div class="ve-check-item">
+                                <i class="fa fa-check-circle"></i>
+                                <div><strong>Pelayanan Personal</strong>
+                                    <p>Setiap pelanggan mendapatkan pendampingan sesuai kebutuhan transaksinya.</p>
+                                </div>
+                            </div>
+                            <div class="ve-check-item">
+                                <i class="fa fa-check-circle"></i>
+                                <div><strong>Harga Transparan</strong>
+                                    <p>Harga beli dan buyback selalu jelas, tanpa biaya tersembunyi.</p>
+                                </div>
+                            </div>
+                            <div class="ve-check-item">
+                                <i class="fa fa-check-circle"></i>
+                                <div><strong>Layanan Responsif</strong>
+                                    <p>Tim kami siap membantu Anda dengan cepat dan ramah kapan pun dibutuhkan.</p>
+                                </div>
+                            </div>
+                        </div>
+                       <a href="https://wa.me/6282128055123?text=Hello%20saya%20ingin%20bertanya%20terkait%20emasnya%20apakah%20ready%3F" 
+                                target="_blank" 
+                                class="ve-btn-primary mt-30">
+                                    Jual Emasmu Sekarang!
+                     </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- MISSION / VISION / VALUES -->
+    <section class="ve-mvv-section">
+        <div class="container">
+            <div class="ve-section-header text-center">
+                <span class="ve-section-tag">Our Foundation</span>
+                <h2>Mission, Vision &amp; <span>Values</span></h2>
+            </div>
+            <div class="ve-mvv-grid">
+                <div class="ve-mvv-card wow fadeInUp" data-wow-delay="100ms">
+                    <div class="ve-mvv-icon"><i class="fa fa-bullseye"></i></div>
+                    <h4>Our Mission</h4>
+                    <p>Menjadi pilihan utama masyarakat dalam jual beli emas dengan layanan terbaik dan harga paling kompetitif.</p>
+                </div>
+                <div class="ve-mvv-card wow fadeInUp" data-wow-delay="250ms">
+                    <div class="ve-mvv-icon"><i class="fa fa-eye"></i></div>
+                    <h4>Our Vision</h4>
+                    <p>Kami berkomitmen menyediakan emas berkualitas dan bersertifikat, dengan harga transparan dan kompetitif, pelayanan profesional, serta mendorong kesadaran investasi untuk masa depan yang lebih aman.</p>
+                </div>
+                <div class="ve-mvv-card wow fadeInUp" data-wow-delay="400ms">
+                    <div class="ve-mvv-icon"><i class="fa fa-heart"></i></div>
+                    <h4>Our Values</h4>
+                    <p>Transparency, client-first thinking, continuous innovation, and an unwavering commitment to ethical
+                        financial practice.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- ===== COUNTERS ===== -->
+    <!-- TEAM -->
+    <!-- <section class="ve-section ve-team-section">
+        <div class="container">
+            <div class="ve-section-header text-center">
+                <span class="ve-section-tag">Meet the Experts</span>
+                <h2>Our<span> Social Media</span></h2>
+                <p>Tenaga profesional berpengalaman yang berdedikasi tinggi dalam mengedukasi masyarakat mengenai keamanan
+                    aset logam mulia dan instrumen investasi emas.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="ve-team-card">
+                        <div class="ve-team-img bg-img" style="background-image:url(/fe_assets/img/bg-img/15.jpg);"></div>
+                        <div class="ve-team-info">
+                            <h5>Jordan Hayes</h5><span>Chief Executive Officer</span>
+                            <div class="ve-team-social"><a href="#"><i class="fa fa-linkedin"></i></a><a
+                                    href="#"><i class="fa fa-twitter"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="ve-team-card">
+                        <div class="ve-team-img bg-img" style="background-image:url(/fe_assets/img/bg-img/16.jpg);"></div>
+                        <div class="ve-team-info">
+                            <h5>Taylor Brooks</h5><span>Chief Investment Officer</span>
+                            <div class="ve-team-social"><a href="#"><i class="fa fa-linkedin"></i></a><a
+                                    href="#"><i class="fa fa-twitter"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="ve-team-card">
+                        <div class="ve-team-img bg-img" style="background-image:url(/fe_assets/img/bg-img/17.jpg);"></div>
+                        <div class="ve-team-info">
+                            <h5>Morgan Lane</h5><span>Head of Wealth Planning</span>
+                            <div class="ve-team-social"><a href="#"><i class="fa fa-linkedin"></i></a><a
+                                    href="#"><i class="fa fa-twitter"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="ve-team-card">
+                        <div class="ve-team-img bg-img" style="background-image:url(/fe_assets/img/bg-img/18.jpg);"></div>
+                        <div class="ve-team-info">
+                            <h5>Casey Rivera</h5><span>Head of Risk &amp; Compliance</span>
+                            <div class="ve-team-social"><a href="#"><i class="fa fa-linkedin"></i></a><a
+                                    href="#"><i class="fa fa-twitter"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
     <!-- <section class="ve-counter-section">
         <div class="container">
             <div class="ve-counter-grid">
@@ -101,144 +224,4 @@
             </div>
         </div>
     </section> -->
-
-    <!-- ===== TESTIMONIALS ===== -->
-    <section class="ve-section ve-testimonials-section">
-        <div class="container">
-            <div class="ve-section-header text-center">
-                <span class="ve-section-tag">Client Stories</span>
-                <h2>Apa yang di katakan <span>Klien</span></h2>
-            </div>
-            <div class="ve-testi-grid">
-                <div class="ve-testi-card wow fadeInUp" data-wow-delay="100ms">
-                    <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"Harga Kompetitif aman dan percaya kalo soal emas ya di Logam Mulia Tasikmalaya"</p>
-                    <div class="ve-testi-author">
-                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
-                        </div>
-                        <div><strong>Hamni R.H</strong><span>Karyawan Swasta</span></div>
-                    </div>
-                </div>
-                <div class="ve-testi-card wow fadeInUp" data-wow-delay="250ms">
-                    <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"Pokonya ga nyesel beli aset emas di Logam Mulia Tasikmalaya. Next Mau order lagi pokoknyaaaa"</p>
-                    <div class="ve-testi-author">
-                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
-                        </div>
-                        <div><strong>Gian</strong><span>Karyawan Swasta</span></div>
-                    </div>
-                </div>
-                <div class="ve-testi-card wow fadeInUp" data-wow-delay="400ms">
-                    <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"Wajib cobain nanti ketagihan investasi emas apalagi beli dan buybacknya di Logam Mulia Tasikmalaya"</p>
-                    <div class="ve-testi-author">
-                        <div class="ve-testi-avatar bg-img" style="background-image:url(/fe_assets/img/bg-img/user.png);">
-                        </div>
-                        <div><strong>Agung P</strong><span>Co Founder</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== CTA BANNER ===== -->
-    <section class="ve-cta-banner bg-img" style="background-image:url(/fe_assets/img/bg-img/61.png);">
-        <div class="ve-cta-overlay"></div>
-        <div class="container ve-cta-content">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-8">
-                    <h2>Siap Mulai Investasi Emas untuk <span>Masa Depan Anda?</span></h2>
-                    <p>Mulai investasi emas sekarang dengan panduan yang tepat. Kami siap membantu Anda memilih langkah
-                        terbaik untuk masa depan finansial yang lebih aman.</p>
-                </div>
-                <div class="col-12 col-lg-4 text-lg-right">
-                     <a href="https://wa.me/6282128055123?text=Hello%20kak%2C%20saya%20ingin%20konsultasi%20terkait%20emasnya" 
-   target="_blank" 
-   class="ve-btn-primary mt-30">
-    Konsultasi Sekarang!
-</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== LATEST INSIGHTS ===== -->
-    <!-- <section class="ve-section ve-insights-section">
-        <div class="container">
-            <div class="ve-section-header text-center">
-                <span class="ve-section-tag">Blog &amp; News</span>
-                <h2>Latest Financial <span>Insights</span></h2>
-                <p>Stay ahead with expert commentary, market analysis, and actionable financial tips.</p>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="ve-insight-card">
-                        <div class="ve-insight-img bg-img" style="background-image:url(/fe_assets/img/bg-img/10.jpg);">
-                        </div>
-                        <div class="ve-insight-body">
-                            <span class="ve-insight-cat">Investment</span>
-                            <h5><a href="single-post.html">5 Smart Investment Strategies for 2025</a></h5>
-                            <p>Discover the top strategies seasoned investors are using to grow wealth in volatile
-                                markets.</p>
-                            <div class="ve-insight-meta">
-                                <span><i class="fa fa-calendar"></i> April 26</span>
-                                <a href="single-post.html">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="250ms">
-                    <div class="ve-insight-card">
-                        <div class="ve-insight-img bg-img" style="background-image:url(/fe_assets/img/bg-img/11.jpg);">
-                        </div>
-                        <div class="ve-insight-body">
-                            <span class="ve-insight-cat">Credit</span>
-                            <h5><a href="single-post.html">Understanding Your Credit Score in 2025</a></h5>
-                            <p>Learn the key factors that influence your credit score and how to improve it fast.</p>
-                            <div class="ve-insight-meta">
-                                <span><i class="fa fa-calendar"></i> April 20</span>
-                                <a href="single-post.html">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="ve-insight-card">
-                        <div class="ve-insight-img bg-img" style="background-image:url(/fe_assets/img/bg-img/12.jpg);">
-                        </div>
-                        <div class="ve-insight-body">
-                            <span class="ve-insight-cat">Savings</span>
-                            <h5><a href="single-post.html">Building Wealth in Your 30s — A Full Guide</a></h5>
-                            <p>The financial habits and investment moves that set you up for lifelong prosperity.</p>
-                            <div class="ve-insight-meta">
-                                <span><i class="fa fa-calendar"></i> April 14</span>
-                                <a href="single-post.html">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    {{-- <!-- ===== NEWSLETTER ===== -->
-    <section class="ve-newsletter-section">
-        <div class="container">
-            <div class="ve-newsletter-wrap">
-                <div class="ve-nl-left">
-                    <i class="fa fa-envelope-o"></i>
-                    <div>
-                        <h3>Stay Ahead of the Markets</h3>
-                        <p>Weekly insights, tips, and exclusive offers — straight to your inbox.</p>
-                    </div>
-                </div>
-                <div class="ve-nl-right">
-                    <form class="ve-nl-form" action="#" method="post">
-                        <input type="email" placeholder="Enter your email address" required>
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> --}}
 @endsection

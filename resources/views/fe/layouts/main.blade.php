@@ -45,7 +45,7 @@
                     <li><a href="/product" {{ $title == 'Product' ? 'class=active' : '' }}>Product</a></li>
                     <li><a href="/buyback" {{ $title == 'Buyback' ? 'class=active' : '' }}>Buyback</a></li>
                     <li><a href="/contact" {{ $title == 'Contact' ? 'class=active' : '' }}>Contact</a></li>
-                    <li><a href="/edukasi" {{ $title == 'edukasi' ? 'class=active' : '' }}>Edukasi Emas</a></li>
+                    <!-- <li><a href="/edukasi" {{ $title == 'edukasi' ? 'class=active' : '' }}>Edukasi Emas</a></li> -->
                 </ul>
             </nav>
 
@@ -94,10 +94,10 @@
                         <p>Investasi emas terpercaya bersama Logam Mulia Tasikmalaya untuk lindungi nilai aset dan raih
                             keuntungan
                             jangka panjang.</p>
-                        <div class="ve-social">
+                        <!-- <div class="ve-social">
                             <a href="#"><i class="fa fa-whatsapp"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- Col 2: Quick Links -->
@@ -117,8 +117,8 @@
                         <li><i class="fa fa-map-marker"></i> Perumahan Bumi Parahyangan Blok P.3, Setiaratu, Kec.
                             Cibeureum, Kab. Tasikmalaya, Jawa Barat 46196</li>
                         <li><i class="fa fa-phone"></i> +{{ $no_telepon }}</li>
-                        <li><i class="fa fa-envelope"></i> hello@vaultedge.com</li>
-                        <li><i class="fa fa-clock-o"></i> Mon–Fri, 9am – 5pm</li>
+                        <li><i class="fa fa-envelope"></i>logammuliatasikmalaya@gmail.com</li>
+                        <li><i class="fa fa-clock-o"></i> Monday – Saturday, 9:00 AM – 5:00 PM</li>
                     </ul>
                 </div>
             </div>
@@ -132,8 +132,7 @@
                         <script>
                             document.write(new Date().getFullYear());
                         </script> VaultEdge. All Rights Reserved <a
-                            href="https://github.com/Rabina-Vishwakarma/" class="text-white" target="_blank">Rabina
-                            Vishwakarma</a> • Distributed by <a href="https://themewagon.com" class="text-white"
+                            href="https://github.com/Rabina-Vishwakarma/" class="text-white" target="_blank">LMT</a> • Distributed by <a href="https://themewagon.com" class="text-white"
                             target="_blank">ThemeWagon</a>
                     </p>
                     <ul>
