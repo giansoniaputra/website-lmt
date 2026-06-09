@@ -103,11 +103,11 @@
                                 </div>
                             </div>
                         </div>
-                       <a href="https://wa.me/6282128055123?text=Hello%20saya%20ingin%20bertanya%20terkait%20emasnya%20apakah%20ready%3F" 
-                                target="_blank" 
-                                class="ve-btn-primary mt-30">
-                                    Jual Emasmu Sekarang!
-                     </a>
+                       <a href="https://wa.me/6282128055123?text=Halo%20Admin,%20saya%20ingin%20bertanya%20terkait%20buyback%20emas."
+   target="_blank"
+   class="ve-btn-primary mt-30">
+    Jual Emasmu Sekarang!
+</a>
                     </div>
                 </div>
             </div>
